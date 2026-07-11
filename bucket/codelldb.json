@@ -1,14 +1,14 @@
 {
-    "version": "1.11.4",
-    "description": "A native debugger extension for VS Code based on LLDB (Standalone via Scoop)",
+    "version": "1.12.2",
+    "description": "Debugger Based on LLDB",
     "homepage": "https://github.com/vadimcn/codelldb",
     "license": "MIT",
-    "url": "https://github.com/vadimcn/codelldb/releases/download/v1.12.2/codelldb-win32-x64.vsix",
+    "url": "https://github.com/vadimcn/codelldb/releases/download/v1.12.2/codelldb-win32-x64.vsix#/.zip",
     "hash": "aa3f45175da3850973632fef1a1af0ed2382866bfd3dcd836544973831388a25",
-    "extract_to": "extension",
+    "extract_to": "src",
     "bin": [
         [
-            "extension/adapter/codelldb.exe",
+            "src/extension/adapter/codelldb.exe",
             "codelldb"
         ]
     ]
