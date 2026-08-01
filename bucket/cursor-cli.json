@@ -1,16 +1,15 @@
 {
-    "version": "2026.07.16-899851b",
-    "description": "Cursor Headless CLI (Absolute Native Declarative Edition)",
+    "version": "2026.07.23",
+    "description": "Cursor CLI Agent",
     "homepage": "https://cursor.com",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.cursor.com/lab/2026.07.16-899851b/windows/x64/agent-cli-package.zip"
+            "url": "https://downloads.cursor.com/lab/2026.07.23-e383d2b/windows/x64/agent-cli-package.zip",
         },
         "arm64": {
-            "url": "https://downloads.cursor.com/lab/2026.07.16-899851b/windows/arm64/agent-cli-package.zip"
+            "url": "https://downloads.cursor.com/lab/2026.07.23-e383d2b/windows/arm64/agent-cli-package.zip",
         }
     },
-    "hash": "skip",
     "extract_dir": "dist-package",
     "bin": [
         [ "cursor-agent.cmd", "cursor" ],
