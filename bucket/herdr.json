@@ -1,12 +1,12 @@
 {
-    "version": "Preview-2026-07-07",
+    "version": "preview-20260729",
     "description": "An agent multiplexer that lives in your terminal, built in Rust for AI coding assistants.",
     "homepage": "https://herdr.dev/",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ogulcancelik/herdr/releases/download/preview-2026-07-07-f5354780e4ef/herdr-windows-x86_64.exe#/herdr.exe",
-            "hash": "9b28eb0a3a55ca2ca9d47e96397544d2cbcca965d88a40b8bd8ccacfb61333ba"
+            "url": "https://github.com/herdrdev/herdr/releases/download/preview-2026-07-29-44b3adb12552/herdr-windows-x86_64.zip",
+            "hash": "ead450c21d31ea559289d45e4c60d14bb0a7ff0937668a309e74c6a3f9f6cca1"
         }
     },
     "bin": "herdr.exe"
