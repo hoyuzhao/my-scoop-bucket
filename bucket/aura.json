@@ -1,0 +1,31 @@
+{
+    "version": "1.2.0",
+    "description": "Lightweight wallpaper manager with optional GPU shader mode",
+    "homepage": "https://github.com/hmerritt/aura",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hmerritt/aura/releases/download/1.2.0/aura-1.2.0-windows.exe#/aura.exe",
+            "hash": "132832ae2de1d2f904c35f81b62959edbae627b04e2b2768749abdc1f0c53e69"
+        }
+    },
+    "bin": "aura.exe",
+    "shortcuts": [
+        [
+            "aura.exe",
+            "Aura"
+        ]
+    ],
+    "notes": "Config file: ~/.config/aura.hcl",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hmerritt/aura/releases/download/$version/aura-$version-windows.exe#/aura.exe",
+                "hash": {
+                    "url": "https://github.com/hmerritt/aura/releases/download/$version/SHA256SUMS"
+                }
+            }
+        }
+    }
+}
