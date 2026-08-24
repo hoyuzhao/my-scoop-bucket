@@ -1,0 +1,13 @@
+{
+    "version": "0.24.0",
+    "description": "Windows terminal system monitor inspired by btop, with CPU and GPU widgets.",
+    "homepage": "https://github.com/freddiehaddad/rtop",
+    "license": "GPL-2.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/freddiehaddad/rtop/releases/download/v0.24.0/rtop-0.24.0.zip",
+            "hash": "a09d6b8e4e81e0d7fbab3d95eabdeaffffad361849b7ce3a77fb6eaa49f3aee2"
+        }
+    },
+    "bin": "rtop.exe"
+}
