@@ -1,13 +1,13 @@
 {
-    "version": "2026.08.11",
+    "version": "2026.08.31",
     "description": "Cursor CLI Agent",
     "homepage": "https://cursor.com",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.cursor.com/lab/2026.08.11-e8db854/windows/x64/agent-cli-package.zip",
+            "url": "https://downloads.cursor.com/lab/2026.08.31-4057e58/windows/x64/agent-cli-package.zip",
         },
         "arm64": {
-            "url": "https://downloads.cursor.com/lab/2026.08.11-e8db854/windows/arm64/agent-cli-package.zip",
+            "url": "https://downloads.cursor.com/lab/2026.08.31-4057e58/windows/arm64/agent-cli-package.zip",
         }
     },
     "extract_dir": "dist-package",
