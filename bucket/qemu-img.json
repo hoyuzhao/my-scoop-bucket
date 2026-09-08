@@ -1,0 +1,13 @@
+{
+    "version": "11.1.0",
+    "description": "QEMU disk image utility",
+    "homepage": "https://qemu.weilnetz.de/",
+    "license": "GPL-2.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hoyuzhao/my-scoop-bucket/releases/download/qemu-img-11.1.0/qemu-img-windows-x64.zip",
+            "hash": "a32ca6edcc9acaaf87aa42e50ae9f63a05b8f9000ad9ab024f7f7b8b56daa64c"
+        }
+    },
+    "bin": "qemu-img.exe"
+}
